@@ -1,16 +1,10 @@
-//
-//  ContentView.swift
-//  FirstUI
-//
-//  Created by ibrahim asiri on 13/10/1443 AH.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     let screenSize = UIScreen.main
-    @State var EmailTF     = ""
-    @State var PasswordTF  = ""
+    @State var EmailTF = ""
+    @State var PasswordTF = ""
     var body: some View {
         ZStack {
             // BackGround

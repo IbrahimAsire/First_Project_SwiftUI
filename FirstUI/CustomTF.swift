@@ -1,17 +1,11 @@
-//
-//  CustomTF.swift
-//  FirstUI
-//
-//  Created by ibrahim asiri on 13/10/1443 AH.
-//
 
 import SwiftUI
 
 struct CustomTF: View {
-    @State       var placeholder        : String
-    @State       var isPassword         : Bool
-    @Binding     var text               : String
-    @FocusState  var isFocused          : Bool
+    @State var placeholder : String
+    @State var isPassword : Bool
+    @Binding var text : String
+    @FocusState var isFocused : Bool
     var body: some View {
         withAnimation(.linear) {
             VStack{
