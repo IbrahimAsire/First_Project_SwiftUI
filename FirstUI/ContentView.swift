@@ -38,7 +38,7 @@ struct ContentView: View {
                     
                 } label: {
                     Text("Log in")
-                        .font(.system(size: 14,weight: .medium))
+                        .font(.system(size: 16,weight: .medium))
                         .foregroundColor(.white)
                         .padding(16)
                         .frame(maxWidth:.infinity)
