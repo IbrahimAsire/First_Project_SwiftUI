@@ -15,6 +15,7 @@
 		0F1CE8482830148400B811E5 /* FirstUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CE8472830148400B811E5 /* FirstUIUITests.swift */; };
 		0F1CE84A2830148400B811E5 /* FirstUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CE8492830148400B811E5 /* FirstUIUITestsLaunchTests.swift */; };
 		0F1CE8572830152E00B811E5 /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CE8562830152E00B811E5 /* CustomTF.swift */; };
+		0F29A13F28D76A70009914F7 /* TabBarUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F29A13E28D76A70009914F7 /* TabBarUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		0F1CE8472830148400B811E5 /* FirstUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUIUITests.swift; sourceTree = "<group>"; };
 		0F1CE8492830148400B811E5 /* FirstUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0F1CE8562830152E00B811E5 /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
+		0F29A13E28D76A70009914F7 /* TabBarUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				0F1CE82C2830148200B811E5 /* FirstUIApp.swift */,
 				0F1CE82E2830148300B811E5 /* ContentView.swift */,
 				0F1CE8562830152E00B811E5 /* CustomTF.swift */,
+				0F29A13E28D76A70009914F7 /* TabBarUI.swift */,
 				0F1CE8302830148400B811E5 /* Assets.xcassets */,
 				0F1CE8322830148400B811E5 /* Preview Content */,
 			);
@@ -263,6 +266,7 @@
 				0F1CE82F2830148300B811E5 /* ContentView.swift in Sources */,
 				0F1CE82D2830148200B811E5 /* FirstUIApp.swift in Sources */,
 				0F1CE8572830152E00B811E5 /* CustomTF.swift in Sources */,
+				0F29A13F28D76A70009914F7 /* TabBarUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
