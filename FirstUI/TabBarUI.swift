@@ -10,7 +10,10 @@ import SwiftUI
 struct TabBarUI: View {
     var body: some View {
         Text("The First")
-        
+            .tabItem{
+                Image(systemName: "house.fill")
+            }
+            .background(.purple)
     }
 }
 
