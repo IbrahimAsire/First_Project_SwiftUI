@@ -7,7 +7,6 @@ struct ContentView: View {
     @State var PasswordTF = ""
     var body: some View {
         TabView {
-            
         
             ZStack {
                 // BackGround
@@ -54,17 +53,18 @@ struct ContentView: View {
                 }
                 
             }
-            .tabItem {
-                        Image(systemName: "house.fill")
-                        Text("Home")
-                    }
-            
-            Text("Bookmark Tab")
-                    .font(.system(size: 30, weight: .bold, design: .rounded))
-                    .tabItem {
-                        Image(systemName: "bookmark.circle.fill")
-                        Text("Bookmark")
-                    }
+//            .tabItem {
+//                        Image(systemName: "house.fill")
+//                        Text("Home")
+//                    }
+//
+//            Text("Bookmark Tab")
+//            TabBarUI()
+//                    .font(.system(size: 30, weight: .bold, design: .rounded))
+//                    .tabItem {
+//                        Image(systemName: "bookmark.circle.fill")
+//                        Text("Bookmark")
+//                    }
             
         }
     }
