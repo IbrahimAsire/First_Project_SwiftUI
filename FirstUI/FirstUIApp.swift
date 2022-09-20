@@ -5,7 +5,7 @@ import SwiftUI
 struct FirstUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarUI()
         }
     }
 }
