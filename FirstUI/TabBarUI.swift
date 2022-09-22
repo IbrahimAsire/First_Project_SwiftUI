@@ -11,40 +11,32 @@ struct TabBarUI: View {
     var body: some View {
         
         TabView {
-            //            EditorView()
-            Text("Editor")
-
-            .tabItem {
-                Label("Editor", systemImage: "pencil.circle")
-            }
-            
-            //            NotesView()
-            Text("Notes")
-
-            .tabItem {
-                Label("Notes", systemImage: "note.text")
-            }
-            
-            //            ShareView()
-            .tabItem {
-                Label("Share", systemImage: "square.and.arrow.up")
-                Text("Share")
-            }
-            
-            //            PrivateNotesView()
-            .tabItem {
-                Label("Private", systemImage: "lock.doc")
-                Text("Private")
-            }
-            
-            //            SettingsView()
-            .tabItem {
-                Label("Settings", systemImage: "gearshape")
-                Text("Settings")
-            }
+            ContentView()
+                .tabItem {
+                    Label("Editor", systemImage: "pencil.circle")
+                    Text("Editor")
+                }
+         
+            NotesView()
+                .tabItem {
+                    Label("Notes", systemImage: "note.text")
+                    Text("Notes")
+                }
+         
+            ShareView()
+                .tabItem {
+                    Label("Share", systemImage: "square.and.arrow.up")
+                    Text("Share")
+                }
+         
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gearshape")
+                    Text("Settings")
+                }
         }
         
-    }
+            }
 }
 
 struct TabBarUI_Previews: PreviewProvider {
