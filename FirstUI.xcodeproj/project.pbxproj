@@ -16,6 +16,9 @@
 		0F1CE84A2830148400B811E5 /* FirstUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CE8492830148400B811E5 /* FirstUIUITestsLaunchTests.swift */; };
 		0F1CE8572830152E00B811E5 /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CE8562830152E00B811E5 /* CustomTF.swift */; };
 		0F29A13F28D76A70009914F7 /* TabBarUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F29A13E28D76A70009914F7 /* TabBarUI.swift */; };
+		0F602A6428DCC46000443243 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F602A6328DCC46000443243 /* NotesView.swift */; };
+		0F602A6628DCC47900443243 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F602A6528DCC47900443243 /* ShareView.swift */; };
+		0F602A6828DCC49600443243 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F602A6728DCC49500443243 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		0F1CE8492830148400B811E5 /* FirstUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0F1CE8562830152E00B811E5 /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
 		0F29A13E28D76A70009914F7 /* TabBarUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUI.swift; sourceTree = "<group>"; };
+		0F602A6328DCC46000443243 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		0F602A6528DCC47900443243 /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		0F602A6728DCC49500443243 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				0F1CE82E2830148300B811E5 /* ContentView.swift */,
 				0F1CE8562830152E00B811E5 /* CustomTF.swift */,
 				0F29A13E28D76A70009914F7 /* TabBarUI.swift */,
+				0F602A6328DCC46000443243 /* NotesView.swift */,
+				0F602A6528DCC47900443243 /* ShareView.swift */,
+				0F602A6728DCC49500443243 /* SettingsView.swift */,
 				0F1CE8302830148400B811E5 /* Assets.xcassets */,
 				0F1CE8322830148400B811E5 /* Preview Content */,
 			);
@@ -263,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F602A6828DCC49600443243 /* SettingsView.swift in Sources */,
+				0F602A6628DCC47900443243 /* ShareView.swift in Sources */,
 				0F1CE82F2830148300B811E5 /* ContentView.swift in Sources */,
 				0F1CE82D2830148200B811E5 /* FirstUIApp.swift in Sources */,
+				0F602A6428DCC46000443243 /* NotesView.swift in Sources */,
 				0F1CE8572830152E00B811E5 /* CustomTF.swift in Sources */,
 				0F29A13F28D76A70009914F7 /* TabBarUI.swift in Sources */,
 			);
