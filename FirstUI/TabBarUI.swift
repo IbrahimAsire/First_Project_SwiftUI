@@ -13,30 +13,29 @@ struct TabBarUI: View {
         TabView {
             ContentView()
                 .tabItem {
-                    Label("Editor", systemImage: "pencil.circle")
+                    Label("Editor", systemImage: "house.fill")
                     Text("Editor")
                 }
-         
+            
             NotesView()
                 .tabItem {
                     Label("Notes", systemImage: "note.text")
                     Text("Notes")
                 }
-         
+            
             ShareView()
                 .tabItem {
                     Label("Share", systemImage: "square.and.arrow.up")
                     Text("Share")
                 }
-         
+            
             SettingsView()
                 .tabItem {
                     Label("Settings", systemImage: "gearshape")
-                    Text("Settings")
                 }
         }
         
-            }
+    }
 }
 
 struct TabBarUI_Previews: PreviewProvider {
