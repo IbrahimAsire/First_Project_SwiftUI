@@ -20,7 +20,7 @@ struct TabBarUI: View {
             NotesView()
                 .tabItem {
                     Label("Notes", systemImage: "note.text")
-                    Text("Notes")
+                    //Text("Notes")
                 }
             
             ShareView()
