@@ -14,7 +14,7 @@ struct TabBarUI: View {
             ContentView()
                 .tabItem {
                     Label("Editor", systemImage: "house.fill")
-                    Text("Editor")
+                    //Text("Editor")
                 }
             
             NotesView()

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NotesView: View {
     var body: some View {
+        Color.purple
         Text("Notes")
             .font(.title)
             .foregroundColor(.blue)
