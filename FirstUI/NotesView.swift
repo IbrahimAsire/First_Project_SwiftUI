@@ -13,9 +13,10 @@ struct NotesView: View {
         Text("Notes")
             .font(.title)
             .foregroundColor(.blue)
+        
+            .background(Color.gray)
+            .frame(width: 100, height: 100, alignment: .top)
     }
-        .background(Color.gray)
-        .frame(width: 100, height: 100, alignment: .top)
 }
 
 //struct NotesView_Previews: PreviewProvider {
