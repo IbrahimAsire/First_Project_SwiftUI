@@ -10,7 +10,8 @@ struct ContentView: View {
         
             ZStack {
                 // BackGround
-                Color("BG2")
+                //Color("BG2")
+                Color(.darkText)
                 VStack {
                     VStack {
                         CustomShape()
